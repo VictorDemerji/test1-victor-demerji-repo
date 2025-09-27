@@ -5,7 +5,9 @@ public class Ex12 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introdu varsta.");
         int varsta = sc.nextInt();
-        if (varsta < 12) {
+        if (varsta < 0) {
+            System.out.println("EROARE");
+        } else if (varsta < 12) {
             System.out.println("Esti copil.");
         } else if (varsta < 18) {
             System.out.println("Esti adolescent.");
