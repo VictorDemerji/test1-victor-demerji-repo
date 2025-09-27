@@ -11,5 +11,6 @@ public class Ex3 {
         System.out.println(numar1-numar2);
         System.out.println(numar1*numar2);
         System.out.println(numar1/numar2);
+        System.out.println(numar1%numar2);
     }
 }
