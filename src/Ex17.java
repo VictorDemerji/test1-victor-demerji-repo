@@ -12,4 +12,3 @@ public class Ex17 {
         System.out.println("Cel mai mare element este: " + max);
     }
 }
-
