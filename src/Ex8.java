@@ -4,7 +4,7 @@ public class Ex8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introdu ora: ");
-        int ora = sc.nextInt();
+        int ora    = sc.nextInt();
         if (ora < 6) {
             System.out.println("Este noapte.");
         } else if (ora < 11) {

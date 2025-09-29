@@ -11,7 +11,7 @@ public class Ex4 {
             System.out.println("Primul numar este mai mare.");
         } else if (numar1 == numar2) {
             System.out.println("Numerele sunt egale.");
-        }else {
+        } else {
             System.out.println("Primul numar este mai mic.");
         }
     }
